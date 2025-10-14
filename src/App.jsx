@@ -1,12 +1,12 @@
 import { useState } from "react";
-import Hero from "./components/Hero/Hero.jsx";
+import Hero from "./components/Hero/Hero.js";
 import "./App.css";
 
 function App() {
   return (
-    <>
-      <Hero></Hero>
-    </>
+    <div className="App">
+      <Hero />
+    </div>
   );
 }
 
