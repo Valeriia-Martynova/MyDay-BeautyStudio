@@ -1,12 +1,11 @@
 import c from "./Hero.module.css";
-import Menu from "../Menu/Menu.jsx";
+
 import Network from "../Network/Network.jsx";
 
 const Hero = () => {
   return (
     <div className={c.Hero}>
-      <Menu />
-      <h1>Hero</h1>
+      <h1>Привіт, я косметолог, масажист з Одеси!</h1>
       <Network />
     </div>
   );

@@ -1,3 +1,10 @@
 .Hero {
-  color: red;
+  background-image: url(/img/hero/bg-mob-1x.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center, center;
+  /* max-width: 1440px; */
+  padding: 281px 0px 32px;
+  margin-bottom: 0;
+  color: goldenrod;
 }

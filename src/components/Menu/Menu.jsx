@@ -1,8 +1,9 @@
 import { CiMenuBurger } from "react-icons/ci";
+import c from "./Menu.module.css";
 
 const Menu = () => {
   return (
-    <button>
+    <button className={c.menu}>
       <CiMenuBurger />
     </button>
   );
