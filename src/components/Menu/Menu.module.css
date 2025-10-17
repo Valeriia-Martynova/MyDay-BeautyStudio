@@ -6,6 +6,18 @@
   font-size: 30px;
 }
 
+.menu:hover {
+  transform: scale(1.5);
+  transition: transform 0.3s ease-in-out;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  color: goldenrod;
+  font-size: 30px;
+}
 button:hover {
   transform: scale(1.5);
   transition: transform 0.3s ease-in-out;

@@ -1,0 +1,16 @@
+.netContainer {
+  display: flex;
+  gap: 20px;
+}
+
+.network {
+  color: goldenrod;
+  font-size: 30px;
+}
+
+.network:hover {
+  text-decoration: none;
+  color: goldenrod;
+  transform: scale(1.5);
+  transition: transform 0.3s ease-in-out;
+}
